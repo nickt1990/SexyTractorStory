@@ -121,55 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &195009016
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 195009017}
-  - component: {fileID: 195009018}
-  m_Layer: 0
-  m_Name: Set Background Images/field (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &195009017
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 195009016}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1045853058}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &195009018
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 195009016}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5176883eab49b6d4e9279aae31e3ee3a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  go_to_next_node: 1
-  executed_from_load: 0
-  sprite: {fileID: 21300000, guid: b2ff5ceb4caa7ce428b5fe361b6290bf, type: 3}
-  set_foreground: 0
-  fade_out: 0
-  fade_in: 0
 --- !u!1 &336663861
 GameObject:
   m_ObjectHideFlags: 0
@@ -262,55 +213,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &375654894
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 375654895}
-  - component: {fileID: 375654896}
-  m_Layer: 0
-  m_Name: Set Background Images/field (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &375654895
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 375654894}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1045853058}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &375654896
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 375654894}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5176883eab49b6d4e9279aae31e3ee3a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  go_to_next_node: 1
-  executed_from_load: 0
-  sprite: {fileID: 21300000, guid: b342271c49a65ce448c2caca581875ed, type: 3}
-  set_foreground: 0
-  fade_out: 0
-  fade_in: 0
 --- !u!1 &613794250
 GameObject:
   m_ObjectHideFlags: 0
@@ -340,7 +242,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1045853058}
-  m_RootOrder: 12
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &613794252
 MonoBehaviour:
@@ -423,7 +325,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1045853058}
-  m_RootOrder: 11
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &853709930
 MonoBehaviour:
@@ -556,7 +458,8 @@ MonoBehaviour:
   fetch_localized_stat_value: 0
   dialogue_from: 0
   localized_key: 
-  text: I'm finally of age.
+  text: "She\u2019s finer than a frog hair split four ways, but she can\u2019t till
+    a mule from a backhoe! She might need someone lookin\u2019 out for her."
   talking_beeps: {fileID: 0}
   darken_all_other_characters: 1
   bring_speaker_to_front: 1
@@ -595,7 +498,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1045853058}
-  m_RootOrder: 10
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1019460231
 MonoBehaviour:
@@ -660,11 +563,9 @@ Transform:
   - {fileID: 1913191824}
   - {fileID: 1835329922}
   - {fileID: 983642811}
-  - {fileID: 375654895}
   - {fileID: 2048227541}
   - {fileID: 1867147844}
   - {fileID: 1976289269}
-  - {fileID: 195009017}
   - {fileID: 2000429594}
   - {fileID: 1019460230}
   - {fileID: 853709929}
@@ -720,7 +621,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1045853058}
-  m_RootOrder: 13
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1183442692
 MonoBehaviour:
@@ -783,7 +684,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1045853058}
-  m_RootOrder: 14
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1338567698
 MonoBehaviour:
@@ -927,7 +828,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1045853058}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1867147845
 MonoBehaviour:
@@ -1304,7 +1205,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22453386, guid: 28701e853ab5f604db903c3402c8eb3a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -7.9762
+      value: -9.497559
       objectReference: {fileID: 0}
     - target: {fileID: 22453386, guid: 28701e853ab5f604db903c3402c8eb3a, type: 3}
       propertyPath: m_SizeDelta.x
@@ -1316,11 +1217,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22453386, guid: 28701e853ab5f604db903c3402c8eb3a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -18
+      value: -20.630005
       objectReference: {fileID: 0}
     - target: {fileID: 22453386, guid: 28701e853ab5f604db903c3402c8eb3a, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -75.91913
+      value: -70.66684
       objectReference: {fileID: 0}
     - target: {fileID: 22453662, guid: 28701e853ab5f604db903c3402c8eb3a, type: 3}
       propertyPath: m_AnchorMin.y
@@ -1792,7 +1693,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22493452, guid: 28701e853ab5f604db903c3402c8eb3a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -75
+      value: -91
       objectReference: {fileID: 0}
     - target: {fileID: 22494240, guid: 28701e853ab5f604db903c3402c8eb3a, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2033,7 +1934,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   go_to_next_node: 1
   executed_from_load: 0
-  sprite: {fileID: 21300000, guid: d69487a729632a74d8e471763f0130a9, type: 3}
+  sprite: {fileID: 21300000, guid: fb980e520bdf9a04da42dbbead53e63b, type: 3}
   set_foreground: 0
   fade_out: 0
   fade_in: 0
@@ -2066,7 +1967,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1045853058}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1976289270
 MonoBehaviour:
@@ -2117,7 +2018,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1045853058}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2000429595
 MonoBehaviour:
@@ -2179,7 +2080,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1045853058}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2048227542
 MonoBehaviour:
