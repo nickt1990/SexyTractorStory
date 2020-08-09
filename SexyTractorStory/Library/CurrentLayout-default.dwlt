@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 592}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 592}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -114,7 +114,7 @@ MonoBehaviour:
   m_MinSize: {x: 908, y: 542}
   m_MaxSize: {x: 22003, y: 12042}
   vertical: 1
-  controlID: 2833
+  controlID: 84
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 908, y: 542}
   m_MaxSize: {x: 22003, y: 12042}
   vertical: 0
-  controlID: 2834
+  controlID: 85
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 542}
   m_MaxSize: {x: 4001, y: 12042}
   vertical: 1
-  controlID: 2709
+  controlID: 38
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -448,14 +448,14 @@ MonoBehaviour:
   m_ShowContextualTools: 0
   m_WindowGUID: 2daa511a8b6d04d4588d83642973c2a0
   m_Gizmos: 0
-  m_SceneIsLit: 1
+  m_SceneIsLit: 0
   m_SceneLighting: 1
   m_2DMode: 1
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 281.38586, y: 173.4785, z: -140.0625}
+    m_Target: {x: 602, y: 252.5, z: 0}
     speed: 2
     m_Value: {x: 281.38586, y: 173.4785, z: -140.0625}
   m_RenderMode: 0
@@ -470,7 +470,7 @@ MonoBehaviour:
   m_SceneViewState:
     showFog: 1
     showMaterialUpdate: 0
-    showSkybox: 1
+    showSkybox: 0
     showFlares: 1
     showImageEffects: 1
     showParticleSystems: 1
@@ -507,7 +507,7 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 286.4937
+    m_Target: 403.31937
     speed: 2
     m_Value: 286.4937
   m_Ortho:
@@ -625,7 +625,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 14934
+  m_LastSelectedObjectID: -3886
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -681,9 +681,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 98310000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 5efbffff323a0000
+      m_ExpandedIDs: 44f2ffff50f2fffff0440000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -746,20 +746,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/VN Engine/Scripts
+    - Assets/VN Engine/Art/Characters
   m_ViewMode: 1
   m_StartGridSize: 58
   m_LastFolders:
-  - Assets/VN Engine/Scripts
+  - Assets/VN Engine/Art/Characters
   m_LastFoldersGridSize: 58
   m_LastProjectPath: C:\Users\Nick\source\repos\SexyTractorStory\SexyTractorStory
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 5e430000
-    m_LastClickedID: 17246
-    m_ExpandedIDs: 000000003e43000040430000424300005c43000000ca9a3b
+    m_SelectedIDs: 40430000
+    m_LastClickedID: 17216
+    m_ExpandedIDs: 000000003043000032430000344300004e43000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -787,7 +787,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003e430000404300004243000000ca9a3b
+    m_ExpandedIDs: 00000000304300003243000034430000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -815,7 +815,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: 600a0000500d0000b83e0000aa3e000030400000062c0000602e0000a02c0000082c00005c2c0000d82c0000762d0000802c0000de380000882b0000aa2b0000482c0000c42c0000442c0000364e00002c2c000066690100223b00000c3e000010380000ec370000483b0000bcb00000a4390000243a0000fc3900005c4000005aec0000723c00006a3f0000f83e00005e6e0000728a000088410000a4430000049600008c4b0200fc430000b03a0000fa490000b84e0000803e0000484f00004e69000080490000ee5c01006e4a000072440000604b0000908100009e440000586100001c4300008ce401004c400000faa80000be390000c0390000263a0000e239000088450000944500000c670000fc3b000004470000944a0000985900000c680000f8480000be47000050470000784700008047000030490000d247000076550000f648000020410000985f000088de0400184100006a430000cc5b0000cc420000b84400000000000080440000a242000042400000ee4d00007e3c00003e400000865800008258000064450000624500001c4400000e4500000643000038420000fa3e00006a3b00002e480000
+    m_ExpandedInstanceIDs: 600a0000500d0000b83e0000aa3e000030400000062c0000602e0000a02c0000082c00005c2c0000d82c0000762d0000802c0000de380000882b0000aa2b0000482c0000c42c0000442c0000364e00002c2c000066690100223b00000c3e000010380000ec370000483b0000bcb00000a4390000243a0000fc3900005c4000005aec0000723c00006a3f0000f83e00005e6e0000728a000088410000a4430000049600008c4b0200fc430000b03a0000fa490000b84e0000803e0000484f00004e69000080490000ee5c01006e4a000072440000604b0000908100009e440000586100001c4300008ce401004c400000faa80000be390000c0390000263a0000e239000088450000944500000c670000fc3b000004470000944a0000985900000c680000f8480000be47000050470000784700008047000030490000d247000076550000f648000020410000985f000088de0400184100006a430000cc5b0000cc420000b84400000000000080440000a242000042400000ee4d00007e3c00003e400000865800008258000064450000624500001c4400000e4500000643000038420000fa3e00006a3b00002e48000010440000cc430000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
